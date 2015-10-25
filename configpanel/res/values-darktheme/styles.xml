@@ -16,14 +16,22 @@
 -->
 <resources>
     <style name="Theme.Main" parent="@android:style/Theme.Material.Light.DarkActionBar">
-        <item name="android:colorPrimary">#ff3f51b5</item>
-        <item name="android:colorPrimaryDark">#ff303f9f</item>
+	<item name="android:colorBackground">@android:color/black</item>
+	<item name="android:statusBarColor">@color/pb_sb</item>
+        <item name="android:colorPrimary">@color/pb_ab</item>
         <item name="android:colorAccent">#ffff4081</item>
+	<item name="android:windowBackground">@android:color/black</item>
         <!-- Redefine the ActionBar style for contentInsetStart -->
         <item name="android:actionBarStyle">@style/Theme.ActionBar.SubSettings</item>
     </style>
 
     <style name="Theme.ActionBar.SubSettings" parent="@android:style/Widget.Material.Light.ActionBar.Solid">
         <item name="android:contentInsetStart">@dimen/actionbar_subsettings_contentInsetStart</item>
+	<item name="android:colorBackground">@android:color/black</item>
+	<item name="android:statusBarColor">@color/pb_sb</item>
+        <item name="android:colorPrimary">@color/pb_ab</item>
+        <item name="android:colorAccent">#ffff4081</item>
+	<item name="android:windowBackground">@android:color/black</item>
     </style>
+
 </resources>

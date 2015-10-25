@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  
+    <color name="midnight_primary">#000000</color>
+    <color name="midnight_secondary">#000000</color>
+    <color name="midnight_transparent">#31ffffff</color>
+    <color name="midnight_white">#ffffffff</color>
+    <color name="midnight_theme">#FF4081</color>
+
+    <color name="pb_sb">#303F9F</color>
+    <color name="pb_ab">#3F51B5</color>
+
+<color name="theme_accent">@color/midnight_theme</color>
+
+</resources>
