@@ -24,8 +24,9 @@ import android.os.Bundle;
 import android.os.SystemProperties;
 import android.preference.Preference;
 import android.preference.SwitchPreference;
+import android.widget.Switch;
 
-public class TouchscreenGestureSettings extends NodePreferenceActivity {
+public class TouchscreenGestureSettings extends NodePreferenceActivity implements Preference.OnPreferenceChangeListener{
 
     private static final String KEY_HAPTIC_FEEDBACK = "touchscreen_haptic_feedback";
 

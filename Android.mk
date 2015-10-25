@@ -21,3 +21,4 @@ ifneq ($(filter oppo oneplus,$(BOARD_VENDOR)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 endif
+
